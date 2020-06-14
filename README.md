@@ -31,7 +31,7 @@ research and innovation programme under grant agreement no. 732287.
 
 [![Build Status](https://travis-ci.com/IntelligentRoboticsLabs/MOCAP4ROS2.svg?branch=master)](https://travis-ci.com/IntelligentRoboticsLabs/MOCAP4ROS2)
 
-To use this report is important follow the next steps.
+To use this project is important follow the next steps.
 First of all, we have to download the dependencies packages. We will use **vcs-tool**
   ```
     cd [ros2_ws]/src
