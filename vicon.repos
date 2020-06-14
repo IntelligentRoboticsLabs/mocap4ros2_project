@@ -1,0 +1,15 @@
+repositories:
+  mocap4ros_core:
+    type: git
+    url: https://github.com/IntelligentRoboticsLabs/mocap4ros_core.git
+    version: master
+  mocap4ros_msgs:
+    type: git
+    url: https://github.com/IntelligentRoboticsLabs/mocap4ros_msgs.git
+    version: master
+  mocap4ros_vicon:
+    type: git
+    url: https://github.com/IntelligentRoboticsLabs/mocap4ros_vicon.git
+    version: master
+  
+  
