@@ -31,6 +31,21 @@ research and innovation programme under grant agreement no. 732287.
 
 [![Build Status](https://travis-ci.com/IntelligentRoboticsLabs/MOCAP4ROS2.svg?branch=master)](https://travis-ci.com/IntelligentRoboticsLabs/MOCAP4ROS2)
 
+To use this report is important follow the next steps.
+First of all, we have to download the dependencies packages. We will use **vcs-tool**
+  ```
+    cd [ros2_ws]/src
+    git clone https://github.com/IntelligentRoboticsLabs/mocap4ros2_project.git
+  ```
+  If you want to install the vicon packages you have to run the next command:
+  ```
+    vcs import < mocap4ros2_project/vicon.repos
+  ```
+  If you want to install the technaid packages you have to run the next command:
+  ```
+    vcs import < mocap4ros2_project/technaid.repos
+  ```
+
 ### Vicon
 
 Read about Vicon prerequesites, instalation and usage guide [here](https://github.com/IntelligentRoboticsLabs/MOCAP4ROS2/blob/master/mocap4ros_drivers/vicon2_driver/README.md).
